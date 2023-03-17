@@ -14,8 +14,8 @@ kubectl edit secret devops-task
 - Copy the secret than decode it using below command 
 echo 'SECRET' | base64 --decode
 ```
-![App Screenshot](https://github.com/mostafahassan097/Deploy-ECS/blob/master/Screenshots/1.png)
-![App Screenshot](https://github.com/mostafahassan097/Deploy-ECS/blob/master/Screenshots/2.png)
+![App Screenshot](https://github.com/mostafahassan097/Task-101/blob/master/images/1.png)
+![App Screenshot](https://github.com/mostafahassan097/Task-101/blob/master/images/2.png)
 
 #### 1. install this app ( https://github.com/digitalocean/sample-nodejs )
 
@@ -33,4 +33,4 @@ docker push <dockerhub-username>/<image-name>:<tag>
 git clone https://github.com/mostafahassan097/Task-101.git
 kubectl apply -f ./Task-01
 ```
-![App Screenshot](https://github.com/mostafahassan097/Deploy-ECS/blob/master/Screenshots/3.png)
+![App Screenshot](https://github.com/mostafahassan097/Task-101/blob/master/images/3.png)
