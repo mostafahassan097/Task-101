@@ -34,3 +34,7 @@ git clone https://github.com/mostafahassan097/Task-101.git
 kubectl apply -f ./Task-01
 ```
 ![App Screenshot](https://github.com/mostafahassan097/Task-101/blob/master/images/3.png)
+### Reference
+Refer to this [LinkedIn post](https://www.linkedin.com/pulse/deploying-rabbitmq-cluster-kubernetes-part-1-darshana-dinushal/) for instructions on how to deploy a RabbitMQ cluster on Kubernetes.
+### Note 
+All these service could be installed via Helm chart as another option.
