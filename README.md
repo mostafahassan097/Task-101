@@ -2,7 +2,7 @@
 
 
 ## Steps To Access Thec Cluster and Reading the Content of Secret(Task Details) 
-#### - Make Sure You have copy from your config file before use the new one 
+#### Make Sure You have copy from your config file before use the new one 
 ```
 cp ~/.kube/config  ~/.kube/config.bk
 - Copy Config to ~/.kube/config
@@ -26,9 +26,9 @@ docker build -t <dockerhub-username>/<image-name>:<tag> .
 docker login
 docker push <dockerhub-username>/<image-name>:<tag>
 ```
-2. Install MongoDB 
-3. install RabbitsMQ 
-4. install RabbitMQ
+#### 2. Install MongoDB 
+#### 3. install RabbitsMQ 
+#### 4. install RabbitMQ
 ```
 git clone https://github.com/mostafahassan097/Task-101.git
 kubectl apply -f ./Task-01
